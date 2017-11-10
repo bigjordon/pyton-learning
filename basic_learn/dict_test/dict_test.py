@@ -22,3 +22,5 @@ print(my_dict)
 print("-----------------")
 del my_dict
 print(my_dict) # error
+
+# dic hash the key to the only key out to the value
