@@ -59,3 +59,6 @@ if not (x and y):
     print(True);
 print(False);
 # 'if statment' recrusive need strictly tab align
+
+
+a,b = b,a # exchange 2 num
