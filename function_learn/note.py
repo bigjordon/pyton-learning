@@ -5,9 +5,9 @@ print(g_a)
 print(g_list)
 def test():
    # global g_a # no declear will be local for unghangeable 
-    g_a = 200 
+    g_a = 200  # define a local variable
     global g_list
-    g_list.append(44) # changeble no need global declear
+    g_list.append(44) # changeble no need global declear if use method
     print(g_a)
     print(g_list)
 test()
