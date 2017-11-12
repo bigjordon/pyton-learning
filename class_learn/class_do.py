@@ -1,5 +1,8 @@
 class ClassA:  # default :  class ClassA(Object)
     __static_num = 0 # like C++ static atrribute that Class's attribute
+    def __new__(cls): # before __init__ called imploy a object
+        print("new is called")
+        return super().__new__(cls) # must call super's __new__
     def __init__(self, a, b):
         self.a = a
         self.b = b
