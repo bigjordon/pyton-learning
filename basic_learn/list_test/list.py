@@ -31,3 +31,10 @@ if "do it" in nameList:
     print("find it agin")
 if "d" in "do it":
     print("find d agin")
+
+nameList.count('asdii')
+nameList.index('asdii')
+if 'asdii' in nameList:
+    print("")
+if 'asdii' not in nameList:
+    print("")
